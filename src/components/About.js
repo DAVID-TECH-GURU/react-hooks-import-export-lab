@@ -9,3 +9,24 @@ function About() {
     </div>
   );
 }
+
+import React from 'react';
+
+const About = () => {
+  return (
+    <div id="about">
+      <h2>About</h2>
+    </div>
+  );
+}
+import { image } from '../data/user';
+const About = () => {
+  return (
+    <div id="about">
+      <h2>About</h2>
+      <img src={image} alt="Profile" />
+    </div>
+  );
+}
+
+export default About;
